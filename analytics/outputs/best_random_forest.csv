@@ -1,0 +1,2 @@
+best_parameters,best_cv_f1,oob_score
+"{'classifier__max_depth': 5, 'classifier__max_features': 'sqrt', 'classifier__n_estimators': 100}",0.7459285142059674,0.827247191011236

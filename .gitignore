@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and editors
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Regenerated inputs and vector database
+data_pipeline/data/raw_books.csv
+data_pipeline/data/cleaned_books.csv
+support_assistant/chroma_db/*
+
+# Keep generated-output directories
+!data_pipeline/data/.gitkeep
+!data_pipeline/outputs/.gitkeep
+!analytics/charts/.gitkeep
+!analytics/models/.gitkeep
+!analytics/outputs/.gitkeep
+!support_assistant/chroma_db/.gitkeep

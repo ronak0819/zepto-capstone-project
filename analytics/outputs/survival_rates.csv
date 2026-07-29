@@ -1,0 +1,12 @@
+analysis,sex,pclass,survival_rate
+sex,female,,0.7403846153846154
+sex,male,,0.18890814558058924
+pclass,,1.0,0.6261682242990654
+pclass,,2.0,0.47282608695652173
+pclass,,3.0,0.24236252545824846
+sex_and_pclass,female,1.0,0.967391304347826
+sex_and_pclass,female,2.0,0.9210526315789473
+sex_and_pclass,female,3.0,0.5
+sex_and_pclass,male,1.0,0.36885245901639346
+sex_and_pclass,male,2.0,0.1574074074074074
+sex_and_pclass,male,3.0,0.13544668587896252
